@@ -105,11 +105,20 @@ img[src="images/logo-8.svg"] {
   height: auto;
 }
 
+img[src="images/logo-white.svg"] {
+  width: 65px;
+  height: auto;
+}
+
 .navbar {
   width: 90%;
   padding-left: 0px;
   padding-right: 0px;
   margin: auto;
+}
+
+.navbar-nav {
+  margin-left: auto!important;
 }
 
 .nav-link {
@@ -128,7 +137,7 @@ img[src="images/logo-8.svg"] {
   padding-bottom: 30px;
 }
 
-.footer-content-outer {
+.bg-dark-grey {
   background-color: #555555;
 }
 
@@ -166,6 +175,12 @@ p, li {
   font-family: 'Poppins';
   font-weight: normal;
   color: #555555;
+}
+
+hr {
+  margin-top: .5px;
+  margin-bottom: .5px;
+  /* max-width: 150px; */
 }
 
 .image-caption {
@@ -248,12 +263,8 @@ p, li {
   border-radius: 0px;
 }
 
-hr {
-  /* margin-top: 5px; */
-  margin-bottom: 5px;
-  margin-left: 0px;
-  margin-top: 0px;
-  width: 25px;
+.hr-footer {
+  border-top: 2px solid #FFE7E7;
 }
 
 img[src="images/hb_device_header.png"] {
@@ -266,10 +277,11 @@ img[src="images/hb_splash.png"], img[src="images/kreation_header.png"], img[src=
   height: auto;
 }
 
-img[src="images/hb_device_single.png"] {
+img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
   width: 60%;
   height: auto;
   margin: auto;
+  max-width: 300px;
 }
 
 img[src="images/hb_landing_mobile.png"] {
@@ -288,9 +300,15 @@ img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], 
   height: auto;
 }
 
+img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"] {
+  width: 80%;
+  height: auto;
+}
+
 .image-container-mobile {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .image-container-center {
@@ -318,18 +336,90 @@ img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], 
 .tools {
   list-style: none;
   margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+.deliverables {
+  padding-top: 20px;
+}
+
+.data-point {
+  font-weight: 700;
+}
+
+/* ABOUT PAGE */
+img[src="images/about_illo_1.svg"] {
+  width: 50%;
+  height: auto;
+  min-width: 208px;
+  max-width: 265px;
+}
+
+img[src="images/brownstone.svg"] {
+  width: 25%;
+  height: auto;
+  min-width: 97px;
+  max-width: 130px;
+}
+
+img[src="images/devices_illo.svg"] {
+  width: 50%;
+  height: auto;
+  min-width: 208px;
+  max-width: 265px;
+}
+
+.image-about {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.fab {
+  color: white;
+  padding-left: 7px;
+  font-size: 20px;
+}
+
+img[src="images/cart_desktop.png"] {
+  width: 100%;
+  height: auto;
+}
+
+.content-inner-divider {
+  padding-top: 20px;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  .content-inner {
+    width: 80%;
+    margin: auto;
+  }
+
+  .tools {
+    padding-top: 0px;
+  }
+
+  .deliverables {
+    padding-top: 0px;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-  .content-inner {
-    width: 70%;
-    margin: auto;
+  .roles, .deliverables {
+    padding-bottom: 0px;
+  }
+
+  img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], img[src="images/hb_mobile_wire_3.png"] {
+    width: 100%;
+  }
+
+  img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"] {
+    width: 100%;
   }
 
   .content-outer {
@@ -337,11 +427,14 @@ img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], 
     padding-bottom: 100px;
   }
 
+  .content-splash {
+    padding-bottom: 100px;
+  }
+
   .content-expanded {
     width: 90%;
     margin: auto;
   }
-
 
   h1 {
     font-size: 48px;
@@ -363,10 +456,66 @@ img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], 
     font-size: 18px;
   }
 
+  img[src="images/hb_landing_mobile.png"] {
+    width: 80%;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+  .content-inner-divider {
+    padding-top: 60px;
+  }
+
+  img[src="images/hb_landing_mobile.png"] {
+    width: 60%;
+  }
+
+
+  .navbar {
+    width: 70%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+  }
+
+  .image-about {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  img[src="images/about_illo_1.svg"] {
+    width: 30%;
+    height: auto;
+  }
+
+  img[src="images/brownstone.svg"] {
+    width: 15%;
+    height: auto;
+  }
+
+  img[src="images/devices_illo.svg"] {
+    width: 30%;
+    height: auto;
+  }
+
+  .content-list-item {
+    /* padding-top: 30px; */
+  }
+
+  .image-container-mobile {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    max-width: 350px;
+  }
 
   .content-inner {
     width: 45%;
@@ -374,7 +523,7 @@ img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], 
   }
 
   .content-expanded {
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
 
@@ -386,9 +535,18 @@ img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], 
     font-size: 40px;
   }
 
+  .footer-content {
+    width: 60%;
+  }
 
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  .content-expanded {
+    /* width: 60%; */
+    margin: auto;
+  }
+
 }
