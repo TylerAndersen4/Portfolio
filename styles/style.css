@@ -195,6 +195,10 @@ hr {
   max-width: 80px;
 }
 
+.fa-long-arrow-alt-right {
+  padding-left: 5px;
+}
+
 .image-caption {
   font-style: italic;
   font-weight: lighter;
@@ -313,7 +317,7 @@ img[src="images/hb_cart_checkout.png"], img[src="images/hb_product_discovery.png
 img[src="images/kreation_wireframe_3.png"], img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"],
 img[src="images/mobile_product_old.png"], img[src="images/cart_old.png"], img[src="images/get_started_old.png"],
 img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old.png"], img[src="images/kreation_product_detail_old.png"],
-img[src="images/kreation_sign_up.png"], img[src="images/kreation_home_2.png"], img[src="images/kreation_home.png"]  {
+img[src="images/kreation_sign_up.png"], img[src="images/kreation_home_2.png"], img[src="images/kreation_home.png"], img[src="images/juice_app_moodboard.png"]  {
   width: 100%;
   height: auto;
 }
