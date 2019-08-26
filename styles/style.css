@@ -190,9 +190,9 @@ li {
 }
 
 hr {
-  margin-top: .5px;
-  margin-bottom: .5px;
-  /* max-width: 150px; */
+  margin-top: 4px;
+  margin-bottom: 4px;
+  max-width: 80px;
 }
 
 .image-caption {
@@ -510,6 +510,15 @@ img[src="images/james.png"], img[src="images/joanna.png"] {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  img[src="images/kreation_sign_up.png"], img[src="images/kreation_home_2.png"], img[src="images/kreation_home.png"] {
+    width: 70%;
+  }
+
+  img[src="images/kreation_header_2.png"] {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   img[src="images/hb_landing_mobile.png"] {
     width: 80%;
   }
@@ -575,6 +584,10 @@ img[src="images/james.png"], img[src="images/joanna.png"] {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  img[src="images/kreation_sign_up.png"], img[src="images/kreation_home_2.png"], img[src="images/kreation_home.png"] {
+    width: 50%;
+  }
 
   img[src="images/hb_landing_mobile.png"] {
     width: 70%;
