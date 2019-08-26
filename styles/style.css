@@ -110,6 +110,10 @@ img[src="images/logo-white.svg"] {
   height: auto;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .navbar {
   width: 90%;
   padding-left: 0px;
@@ -150,9 +154,9 @@ h2 {
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Poppins';
-  margin-bottom: .2px;
+  margin-bottom: 1px;
   font-size: 20px;
   color: #555555;
 }
@@ -173,8 +177,13 @@ h6 {
 
 p, li {
   font-family: 'Poppins';
-  font-weight: normal;
+  font-weight: 300;
   color: #555555;
+}
+
+li {
+  margin-bottom: 4px;
+  line-height: 140%;
 }
 
 hr {
@@ -278,10 +287,10 @@ img[src="images/hb_splash.png"], img[src="images/kreation_header.png"], img[src=
 }
 
 img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
-  width: 60%;
+  width: 100%;
   height: auto;
   margin: auto;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 img[src="images/hb_landing_mobile.png"] {
@@ -296,12 +305,17 @@ img[src="images/hb_cart_checkout.png"], img[src="images/hb_product_discovery.png
 }
 
 img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], img[src="images/hb_mobile_wire_3.png"] {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"] {
-  width: 80%;
+  width: 100%;
+  height: auto;
+}
+
+img[src="images/mobile_product_old.png"], img[src="images/cart_old.png"], img[src="images/get_started_old.png"] {
+  width: 100%;
   height: auto;
 }
 
@@ -389,6 +403,27 @@ img[src="images/cart_desktop.png"] {
   padding-top: 20px;
 }
 
+.nav-footer {
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-right: 0px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+.content-inner-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
@@ -423,8 +458,8 @@ img[src="images/cart_desktop.png"] {
   }
 
   .content-outer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .content-splash {
@@ -456,8 +491,9 @@ img[src="images/cart_desktop.png"] {
     font-size: 18px;
   }
 
-  img[src="images/hb_landing_mobile.png"] {
-    width: 80%;
+  .content-inner {
+    width: 70%;
+    margin: auto;
   }
 
 }
@@ -467,10 +503,6 @@ img[src="images/cart_desktop.png"] {
 
   .content-inner-divider {
     padding-top: 60px;
-  }
-
-  img[src="images/hb_landing_mobile.png"] {
-    width: 60%;
   }
 
 
@@ -506,11 +538,10 @@ img[src="images/cart_desktop.png"] {
   }
 
   .image-container-mobile {
-    padding-top: 30px;
     padding-bottom: 0px;
   }
 
-  img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
+  img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
     width: 80%;
     height: auto;
     margin: auto;
@@ -518,8 +549,7 @@ img[src="images/cart_desktop.png"] {
   }
 
   .content-inner {
-    width: 45%;
-    margin: auto;
+    width: 58%;
   }
 
   .content-expanded {
@@ -547,6 +577,15 @@ img[src="images/cart_desktop.png"] {
   .content-expanded {
     /* width: 60%; */
     margin: auto;
+  }
+
+  .content-inner {
+    width: 45%;
+  }
+
+  .content-outer {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
 }
