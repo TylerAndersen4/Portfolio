@@ -257,6 +257,7 @@ hr {
   border-radius: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
+  min-width: 350px;
 }
 
 .btn:hover {
@@ -266,6 +267,7 @@ hr {
 
 .btn-spacing {
   padding-top: 30px;
+  text-align: center;
 }
 
 .btn-btm {
@@ -290,7 +292,7 @@ img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[s
   width: 100%;
   height: auto;
   margin: auto;
-  /* max-width: 300px; */
+  max-width: 300px;
 }
 
 img[src="images/hb_landing_mobile.png"] {
@@ -501,6 +503,10 @@ img[src="images/cart_desktop.png"] {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  img[src="images/hb_landing_mobile.png"] {
+    width: 80%;
+  }
+
   .content-inner-divider {
     padding-top: 60px;
   }
@@ -510,7 +516,6 @@ img[src="images/cart_desktop.png"] {
     width: 70%;
     padding-left: 0px;
     padding-right: 0px;
-    margin: auto;
   }
 
   .image-about {
@@ -520,21 +525,14 @@ img[src="images/cart_desktop.png"] {
 
   img[src="images/about_illo_1.svg"] {
     width: 30%;
-    height: auto;
   }
 
   img[src="images/brownstone.svg"] {
     width: 15%;
-    height: auto;
   }
 
   img[src="images/devices_illo.svg"] {
     width: 30%;
-    height: auto;
-  }
-
-  .content-list-item {
-    /* padding-top: 30px; */
   }
 
   .image-container-mobile {
@@ -543,8 +541,6 @@ img[src="images/cart_desktop.png"] {
 
   img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
     width: 80%;
-    height: auto;
-    margin: auto;
     max-width: 350px;
   }
 
@@ -554,7 +550,6 @@ img[src="images/cart_desktop.png"] {
 
   .content-expanded {
     width: 60%;
-    margin: auto;
   }
 
   h1 {
@@ -574,9 +569,8 @@ img[src="images/cart_desktop.png"] {
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-  .content-expanded {
-    /* width: 60%; */
-    margin: auto;
+  img[src="images/hb_landing_mobile.png"] {
+    width: 70%;
   }
 
   .content-inner {
