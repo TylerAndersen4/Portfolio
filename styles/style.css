@@ -145,6 +145,9 @@ img[src="images/logo-white.svg"] {
   background-color: #555555;
 }
 
+.bg-green {
+  background-color: #B0DBD1;
+}
 
 h2 {
   font-family: 'Poppins';
@@ -288,6 +291,11 @@ img[src="images/hb_splash.png"], img[src="images/kreation_header.png"], img[src=
   height: auto;
 }
 
+img[src="images/kreation_header_2.png"] {
+  width: 100%;
+  height: auto;
+}
+
 img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[src="images/landing_mobile.png"] {
   width: 100%;
   height: auto;
@@ -295,30 +303,23 @@ img[src="images/hb_device_single.png"], img[src="images/blog_mobile.png"], img[s
   max-width: 300px;
 }
 
-img[src="images/hb_landing_mobile.png"] {
+img[src="images/hb_landing_mobile.png"], img[src="images/kreation_home_full_mockup.png"] {
   width: 100%;
   height: auto;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img[src="images/hb_cart_checkout.png"], img[src="images/hb_product_discovery.png"] {
-  width: 100%;
-  height: auto;
-}
-
-img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], img[src="images/hb_mobile_wire_3.png"] {
-  width: 100%;
-  height: auto;
-}
-
-img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"] {
+img[src="images/hb_cart_checkout.png"], img[src="images/hb_product_discovery.png"], img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], img[src="images/hb_mobile_wire_3.png"], img[src="images/kreation_sketch_1.png"], img[src="images/kreation_sketch_2.png"], img[src="images/kreation_sketch_3.png"], img[src="images/kreation_wireframe_1.png"], img[src="images/kreation_wireframe_2.png"],
+img[src="images/kreation_wireframe_3.png"], img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"],
+img[src="images/mobile_product_old.png"], img[src="images/cart_old.png"], img[src="images/get_started_old.png"],
+img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old.png"], img[src="images/kreation_product_detail_old.png"],
+img[src="images/kreation_sign_up.png"], img[src="images/kreation_home_2.png"], img[src="images/kreation_home.png"]  {
   width: 100%;
   height: auto;
 }
 
-img[src="images/mobile_product_old.png"], img[src="images/cart_old.png"], img[src="images/get_started_old.png"] {
-  width: 100%;
-  height: auto;
+img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old.png"], img[src="images/kreation_product_detail_old.png"] {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .image-container-mobile {
@@ -426,6 +427,12 @@ img[src="images/cart_desktop.png"] {
   padding-bottom: 40px;
 }
 
+img[src="images/james.png"], img[src="images/joanna.png"] {
+  width: 50%;
+  height: auto;
+}
+
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
@@ -452,7 +459,7 @@ img[src="images/cart_desktop.png"] {
   }
 
   img[src="images/hb_mobile_wire_1.png"], img[src="images/hb_mobile_wire_2.png"], img[src="images/hb_mobile_wire_3.png"] {
-    width: 100%;
+    /* width: 100%; */
   }
 
   img[src="images/single_product_final.png"], img[src="images/account_final.png"], img[src="images/cart_final.png"] {
