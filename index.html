@@ -7,11 +7,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/e6d86e8964.js"></script>
 
     <title>Tyler | Portfolio</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="sticky-top container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./index.html">
           <img src="images/logo-8.svg">
@@ -39,76 +40,96 @@
     </div>
     <div class="container content-outer landing-splash">
       <div class="#">
-        <h1>Tyler - UI/UX Designer in sunny Los Angeles, CA. Elegant interfaces that solve complex problems. Explore my work below.</h1>
+        <h2 class="welcome-text animated fadeIn slow">Tyler - <span class="text-bolder">UI/UX Designer in sunny Los Angeles, CA.</span> Elegant interfaces that solve complex problems. Explore my work below.</h2>
+        <!-- <p class="animated fadeIn slower">Learn more about my story<i class="fas fa-long-arrow-alt-right"></i></p> -->
       </div>
     </div>
-    <div class="container index-container view overlay zoom">
-      <a href="./honeybee.html">
-        <img src="images/hb_splash.png">
-        <div class="mask flex-center rgba-black-strong">
-          <h1 class="white-text">Honeybee Health</h1>
+    <div class="row landing-splash">
+      <a class="col-md container-fluid index-container margin-right hoverable" href="./vision.html">
+        <div class="work-cover bg-vision">
+          <div class="work-text">
+            <h3 class="work-name box-text-hd">City of West Hollywood</h3>
+            <div class="work-name-wrap">
+              <p class="work-type box-text-hd-2">UI/UX, BRANDING</p>
+            </div>
+          </div>
+          <img src="images/vision_header.png">
+        </div>
+      </a>
+      <a class="col-md container-fluid index-container margin-left hoverable" href="./honeybee.html">
+        <div class="work-cover bg-honeybee">
+          <div class="work-text">
+            <h3 class="work-name box-text-hd">Honeybee Health</h3>
+            <div class="work-name-wrap">
+              <p class="work-type box-text-hd-2">UI/UX, COPY</p>
+            </div>
+          </div>
+          <img src="images/hb_splash.png">
         </div>
       </a>
     </div>
-    <div class="container index-container view overlay zoom">
-      <a href="./kreation.html">
-        <img src="images/kreation_header.png">
-        <div class="mask flex-center rgba-black-strong">
-          <h1 class="white-text">Kreation Organic</h1>
+    <div class="row landing-splash">
+      <a class="col-md container-fluid index-container margin-right hoverable" href="./kreation.html">
+        <div class="work-cover bg-kreation">
+          <div class="work-text">
+            <h3 class="work-name box-text-hd">Kreation</h3>
+            <div class="work-name-wrap">
+              <p class="work-type box-text-hd-2">UI/UX, APP</p>
+            </div>
+          </div>
+          <img src="images/kreation_header.png">
+        </div>
+      </a>
+      <a class="col-md container-fluid index-container margin-left hoverable" href="./point.html">
+        <div class="work-cover bg-point">
+          <div class="work-text">
+            <h3 class="work-name box-text-hd">Point</h3>
+            <div class="work-name-wrap">
+              <p class="work-type box-text-hd-2">UI/UX</p>
+            </div>
+          </div>
+          <img src="images/header_point.png">
         </div>
       </a>
     </div>
-    <div class="container index-container view overlay zoom">
-      <a href="./point.html">
-        <img src="images/header_point.png">
-        <div class="mask flex-center rgba-black-strong">
-          <h1 class="white-text">Point</h1>
+    <!-- <div class="row">
+      <a class="col-md container-fluid index-container" href="./kreation.html">
+        <div class="work-cover bg-kreation">
+          <div class="work-text">
+            <h3 class="work-name box-text-hd">Kreation Organic</h3>
+            <div class="work-name-wrap">
+              <p class="work-type box-text-hd-2">APP, BRANDING, UI/UX</p>
+            </div>
+          </div>
+          <img src="images/kreation_header.png">
         </div>
       </a>
-    </div>
-    <div class="container index-container view overlay zoom">
-      <a href="#">
-        <img src="images/redbull_header.png">
-        <div class="mask flex-center rgba-black-strong">
-          <h1 class="white-text">Red Bull Admin</h1>
+      <a class="col-md container-fluid index-container" href="./kreation.html">
+        <div class="work-cover bg-honeybee">
+          <div class="work-text">
+            <h3 class="work-name box-text-hd">Honeybee Health</h3>
+            <div class="work-name-wrap">
+              <p class="work-type box-text-hd-2">UI/UX, RESPONSIVE SITE</p>
+            </div>
+          </div>
+          <img src="images/hb_splash.png">
         </div>
       </a>
-    </div>
+    </div> -->
     <div class="container-fluid bg-dark-grey">
-      <div class="row content-expanded content-inner-footer">
-        <div class="col-sm logo">
-          <a class="navbar-brand" href="./index.html">
-            <img src="images/logo-white.svg">
-          </a>
-        </div>
-        <ul class="col-sm nav-footer">
+      <div class="navbar content-expanded content-inner-footer">
+        <ul class="row nav-footer">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">WORK<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://www.linkedin.com/in/andersentyler/">LinkedIn</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./about.html">ABOUT</a>
+            <a class="nav-link" href="https://angel.co/tyler-andersen-3">AngelList</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../documents/tyler_resume_08-7.pdf" target="blank">RESUME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:tylerlawrenceand@gmail.com">CONTACT</a>
+            <a class="nav-link" href="mailto:tylerlawrenceand@gmail.com">Email</a>
           </li>
         </ul>
-        <div class="col-sm social">
-          <a href="https://angel.co/tyler-andersen-3" target="blank">
-            <i class="fab fa-angellist"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/andersentyler/" target="blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://dribbble.com/tylerandersen" target="blank">
-            <i class="fab fa-dribbble"></i>
-          </a>
-          <a href="https://github.com/TylerAndersen4" target="blank"
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
+        <p class="footer-text">designed & developed by tyler andersen</p>
       </div>
     </div>
 
@@ -125,5 +146,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
