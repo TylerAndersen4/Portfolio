@@ -147,7 +147,15 @@ img[src="images/logo-white.svg"] {
 }
 
 .bg-dark-grey {
-  background-color: #555555;
+  background-color: #333333;
+}
+
+.bg-grey {
+  background-color: #C4C4C4;
+}
+
+.bg-dark-blue {
+  background-color: #217EBA;
 }
 
 .box {
@@ -298,13 +306,17 @@ hr {
   padding: 5%;
 }
 
-.col-md, .col-sm {
+.no-padding {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.col-sm-8, .col-sm-4 {
+.no-padding-left {
   padding-left: 0px;
+}
+
+.no-padding-right {
+  padding-right: 0px;
 }
 
 .work-type {
@@ -422,7 +434,7 @@ hr {
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* min-width: 350px; */
+  min-width: 200px;
 }
 
 .splash-container {
@@ -491,13 +503,21 @@ img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old
 img[src="images/kreation_sign_up.png"], img[src="images/kreation_home_2.png"], img[src="images/kreation_home.png"], img[src="images/juice_app_moodboard.png"],
 img[src="images/point_dash_imac.png"], img[src="images/point_dashboard_main.png"], img[src="images/point_dash_detail_1.png"], img[src="images/point_dash_detail_2.png"],
 img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[src="images/point_product_hunt_1.png"], img[src="images/point_product_hunt_2.png"], img[src="images/point_twitter.png"], img[src="images/point_user_profile_main.png"], img[src="images/point_user_transactions.png"],
-img[src="images/vision_header.png"], img[src="images/rb_1.png"], img[src="images/rb_2.png"], img[src="images/rb_3.png"], img[src="images/rb_4.png"] {
+img[src="images/vision_header.png"], img[src="images/rb_1.png"], img[src="images/rb_2.png"], img[src="images/rb_3.png"], img[src="images/rb_4.png"],
+img[src="images/vision_splash.png"], img[src="images/vision_landing_entire.png"], img[src="images/vision_devices.png"], img[src="images/vision_landing_old_1.png"], img[src="images/vision_landing_old_2.png"],
+img[src="images/vision_home_mobile_full.png"], img[src="images/vision_about_mobile.png"], img[src="images/vision_blog.png"], img[src="images/vision_contact.png"], img[src="images/vision_device_1.png"], img[src="images/vision_device_2.png"],
+img[src="images/vision_about.png"], img[src="images/vision_mobile_sample.png"], img[src="images/bg_light.png"] {
   width: 100%;
   height: auto;
 }
 
-img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old.png"], img[src="images/kreation_product_detail_old.png"] {
-  box-shadow: 1px 1px 20px #D2D2D2;
+img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old.png"], img[src="images/kreation_product_detail_old.png"],
+img[src="images/vision_about.png"], img[src="images/vision_blog.png"], img[src="images/vision_landing_entire.png"], img[src="images/vision_contact.png"], img[src="images/vision_mobile_sample.png"] {
+  filter: drop-shadow(1px 1px 20px #D2D2D2);
+}
+
+img[src="images/vision_landing_old_1.png"] {
+  border: 1px solid white;
 }
 
 .image-container-mobile {
@@ -828,7 +848,7 @@ img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[sr
   }
 
   .margin-left {
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .content-expanded {
