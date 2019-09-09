@@ -319,6 +319,10 @@ hr {
   padding-right: 0px;
 }
 
+.no-padding-bottom {
+  padding-bottom: 0px;
+}
+
 .work-type {
   float: right;
   text-align: right;
@@ -435,6 +439,11 @@ hr {
   padding-top: 10px;
   padding-bottom: 10px;
   min-width: 200px;
+  box-shadow: none;
+}
+
+.view-all:hover {
+  filter: drop-shadow(0 1px 1px grey);
 }
 
 .splash-container {
@@ -671,6 +680,14 @@ img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[sr
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+  .add-padding-left {
+    padding-left: 15px;
+  }
+
+  .add-padding-right {
+    padding-right: 15px;
+  }
 
   .col-sm-4 {
     padding-left: 15px;
