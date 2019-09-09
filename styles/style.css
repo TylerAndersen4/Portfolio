@@ -154,6 +154,10 @@ img[src="images/logo-white.svg"] {
   background-color: #C4C4C4;
 }
 
+.bg-blue {
+  background-color: #217EBA;
+}
+
 .bg-dark-blue {
   background-color: #217EBA;
 }
@@ -182,7 +186,7 @@ h2 {
 h3 {
   font-weight: 600;
   font-family: 'Poppins';
-  margin-bottom: 1px;
+  margin-bottom: 4px;
   font-size: 20px;
   color: #555555;
 }
@@ -526,7 +530,7 @@ img[src="images/vision_about.png"], img[src="images/vision_blog.png"], img[src="
 }
 
 img[src="images/vision_landing_old_1.png"] {
-  border: 1px solid white;
+  border: 1px solid #B0B0B0;
 }
 
 .image-container-mobile {
@@ -659,9 +663,40 @@ img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[sr
   flex-direction: row-reverse;
 }
 
+.weho-data {
+  background-image: url("../images/weho_bg.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+img[src="images/style_guide_1.png"] {
+  transform: translateZ(3px);
+
+}
+
+.initial_designs {
+  transform: translateZ(20px);
+}
+
+.extra-padding-bttm {
+  padding-bottom: 10px;
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+  .add-padding-left {
+    padding-left: 15px;
+  }
+
+  .add-padding-right {
+    padding-right: 15px;
+  }
 
   .content-inner {
     width: 80%;
@@ -680,14 +715,6 @@ img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[sr
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
-  .add-padding-left {
-    padding-left: 15px;
-  }
-
-  .add-padding-right {
-    padding-right: 15px;
-  }
 
   .col-sm-4 {
     padding-left: 15px;
@@ -774,6 +801,15 @@ img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[sr
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+  .extra-padding-bttm {
+    padding-bottom: 15px;
+  }
+
+  .weho-data {
+    padding-top: 170px;
+    padding-bottom: 170px;
+  }
+
   .margin-right {
     margin-right: 15px;
   }
@@ -859,6 +895,10 @@ img[src="images/style_guide_1.png"], img[src="images/style_guide_2.png"], img[sr
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  .extra-padding-bttm {
+    padding-bottom: 25px;
+  }
 
   .margin-right {
     margin-right: 30px;
