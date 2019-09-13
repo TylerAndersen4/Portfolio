@@ -154,8 +154,16 @@ img[src="images/logo-white.svg"] {
   background-color: #C4C4C4;
 }
 
+.bg-grey-2 {
+  background-color: #585858;
+}
+
 .bg-blue {
   background-color: #217EBA;
+}
+
+.bg-light-blue-2 {
+  background-color: #DEF0FC;
 }
 
 .bg-dark-blue {
@@ -290,7 +298,7 @@ hr {
 }
 
 .bg-kreation {
-  background-color: #B0DBD1;
+  background-color: #DBEFEB;
 }
 
 .bg-point {
@@ -525,7 +533,8 @@ img[src="images/vision_about.png"], img[src="images/vision_mobile_sample.png"], 
 }
 
 img[src="images/kreation_landing_old.png"], img[src="images/kreation_welcome_old.png"], img[src="images/kreation_product_detail_old.png"],
-img[src="images/vision_about.png"], img[src="images/vision_blog.png"], img[src="images/vision_landing_entire.png"], img[src="images/vision_contact.png"], img[src="images/vision_mobile_sample.png"] {
+img[src="images/vision_about.png"], img[src="images/vision_blog.png"], img[src="images/vision_landing_entire.png"], img[src="images/vision_contact.png"], img[src="images/vision_mobile_sample.png"],
+img[src="images/rb_1.png"], img[src="images/rb_2.png"], img[src="images/rb_3.png"], img[src="images/rb_4.png"] {
   filter: drop-shadow(1px 1px 20px #D2D2D2);
 }
 
